@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="实现网络请求demo"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET请求"
+        android:id="@+id/button_get"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST请求"
+        android:id="@+id/button_post"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUT请求"
+        android:id="@+id/button_put"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE请求"
+        android:id="@+id/button_delete"
+        />
+
+</LinearLayout>
